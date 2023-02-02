@@ -1,0 +1,82 @@
+.header {
+    width: 100%;
+    text-align: center;
+
+    &-top {
+        background-color: $color-gray;
+
+        &__title {
+            font-size: $font-18;
+
+        }
+        &__description {
+            font-size: $font-14;
+
+        }
+
+    }
+
+    &-review {
+        background-color: $secondary-color;
+
+        &__title {
+            font-size: $font-16;
+
+        }
+        &__link {
+            font-size: $font-14;
+            color: $primary-color;
+
+            &_disabled {
+                @include error ();
+ 
+
+                opacity: .4;
+                cursor: not-allowed;
+
+            }
+        }
+
+    }
+
+}
+
+
+
+// .header {
+//     width: 100%;
+//     text-align: center;
+  
+//     &-top {
+//       background-color: $color-gray;
+  
+//       &__title {
+//         font-size: $font-18;
+//       }
+  
+//       &__description {
+//         font-size: $font-14;
+//       }
+//     }
+  
+//     &-review {
+//       background-color: $secondary-color;
+  
+//       &__title {
+//         font-size: $font-16;
+//       }
+  
+//       &__link {
+//         font-size: $font-14;
+//         color: $primary-color;
+  
+//         &_disabled {
+//           opacity: .4;
+//           cursor: not-allowed;
+//         }
+//       }
+//     }
+//   }
+//   Ответить на сообщение
+//   Скопировать
+  
